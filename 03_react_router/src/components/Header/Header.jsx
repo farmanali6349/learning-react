@@ -12,6 +12,7 @@ function Header() {
           <li><NavLink className={({isActive}) => isActive ? 'red' : ''} to={"/about"}>About</NavLink></li>
           <li><NavLink className={({isActive}) => isActive ? 'red' : ''} to={"/contact"}>Contact</NavLink></li>
           <li><NavLink className={({isActive}) => isActive ? 'red' : ''} to={"/user"}>User</NavLink></li>
+          <li><NavLink className={({isActive}) => isActive ? 'red' : ''} to={"/github"}>Github</NavLink></li>
         </ul>
       </nav>
     </>
